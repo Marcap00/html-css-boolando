@@ -121,6 +121,8 @@ main .container {
 .card {
     height: 400px;
     position: relative;
+    background-position: top;
+    background-size: cover;
 }
 
 .col ul {
@@ -151,7 +153,46 @@ main .container {
     content: '\2665';
     position: absolute ;
     top: 8px;
-    right: 49px;
+    right: 0px;
     background-color: white;
     padding: 5px 10px;
+}
+
+
+.bg-1 {
+    background-image: url(img/1.webp);
+}
+.bg-2 {
+    background-image: url(img/2.webp);
+}
+.bg-3 {
+    background-image: url(img/3.webp);
+}
+.bg-4 {
+    background-image: url(img/4.webp);
+}
+.bg-5 {
+    background-image: url(img/5.webp);
+}
+.bg-6 {
+    background-image: url(img/6.webp);
+}
+
+.card.bg-1:hover {
+    background-image: url(img/1b.webp);
+}
+.card.bg-2:hover {
+    background-image: url(img/2b.webp);
+}
+.card.bg-3:hover {
+    background-image: url(img/3b.webp);
+}
+.card.bg-4:hover {
+    background-image: url(img/4b.webp);
+}
+.card.bg-5:hover {
+    background-image: url(img/5b.webp);
+}
+.card.bg-6:hover {
+    background-image: url(img/6b.webp);
 }
