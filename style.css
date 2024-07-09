@@ -150,3 +150,12 @@ main .container {
     font-size: 12px;
     font-weight: 900;
 }
+
+.heart::before {
+    content: '\2665';
+    position: absolute ;
+    top: 8px;
+    right: 49px;
+    background-color: white;
+    padding: 5px 10px;
+}
