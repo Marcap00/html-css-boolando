@@ -131,25 +131,21 @@ main .container {
     font-size: 14px;
 }
 
-.discount {
+
+.container-label {
     position: absolute;
     left: 0;
     bottom: 50px;
+
+}
+
+.discount, .label {
     padding: 2px 5px;
     color: white;
     font-size: 12px;
     font-weight: 900;
 }
 
-.label {
-    position: absolute;
-    left: 48px;
-    bottom: 50px;
-    padding: 2px 5px;
-    color: white;
-    font-size: 12px;
-    font-weight: 900;
-}
 
 .heart::before {
     content: '\2665';
