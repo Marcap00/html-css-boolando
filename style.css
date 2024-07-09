@@ -15,6 +15,30 @@
     display: flex;
 }
 
+.text-900 {
+    font-weight: 900;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-through {
+    text-decoration: line-through;
+}
+
+.pdd-left-5 {
+    padding-left: 5px;
+}
+
+.bg-red {
+    background-color: rgb(243, 80, 80);
+}
+
+.bg-green {
+    background-color: green;
+}
+
 /* Generics */
 body {
     font-family: sans-serif;
@@ -28,6 +52,7 @@ header {
     right: 0;
     left: 0;
     box-shadow: 0px 2px 10px 4px #888888;
+    z-index: 1;
 }
 
 nav {
@@ -47,6 +72,12 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: inline-block;
+    height: 100%;
+    width: auto;
+}
+
 /* Header */
 
 .container-logo {
@@ -54,10 +85,7 @@ a {
     text-align: center;
 }
 
-.logo {
-    height: 100%;
-    width: auto;
-}
+
 
 .links-navbar {
     gap: 10px;
@@ -74,4 +102,51 @@ a {
 
 .icon i {
     margin-right: 10px;
+}
+
+/* Main */
+.row {
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+main .container {
+    margin-top: 80px;
+}
+
+.col {
+    flex-basis: calc(100% / 3 - 20px / 3);
+}
+
+.card {
+    height: 400px;
+    position: relative;
+}
+
+.col ul {
+    line-height: 20px;
+}
+
+.brand, .price {
+    font-size: 14px;
+}
+
+.discount {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    padding: 2px 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.label {
+    position: absolute;
+    left: 48px;
+    bottom: 50px;
+    padding: 2px 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: 900;
 }
